@@ -2725,14 +2725,14 @@ MTEB_SWE = Benchmark(
     description="Given a GitHub issue, the goal is to retrieve the relevant functions within the codebase that need to be modified to fix the issue.",
     reference="https://arxiv.org/abs/2412.01007",
     citation=r"""
-@misc{suresh2025cornstackhighqualitycontrastivedata,
-  archiveprefix = {arXiv},
-  author = {Tarun Suresh and Revanth Gangi Reddy and Yifei Xu and Zach Nussbaum and Andriy Mulyar and Brandon Duderstadt and Heng Ji},
-  eprint = {2412.01007},
-  primaryclass = {cs.CL},
-  title = {CoRNStack: High-Quality Contrastive Data for Better Code Retrieval and Reranking},
-  url = {https://arxiv.org/abs/2412.01007},
-  year = {2025},
+@misc{reddy2025sweranksoftwareissuelocalization,
+      title={SweRank: Software Issue Localization with Code Ranking}, 
+      author={Revanth Gangi Reddy and Tarun Suresh and JaeHyeok Doo and Ye Liu and Xuan Phi Nguyen and Yingbo Zhou and Semih Yavuz and Caiming Xiong and Heng Ji and Shafiq Joty},
+      year={2025},
+      eprint={2505.07849},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2505.07849}, 
 }
 """,
 )
